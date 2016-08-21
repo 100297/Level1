@@ -18,12 +18,18 @@ public class houses {
 		houses("large", "yellow");
 		houses("medium", "white");
 		houses("small", "pink");
-
+		houses("large", "red");
+		houses("small", "yellow");
+		houses("large", "red");
+		houses("medium", "blue");
+		houses("large", "red");
+	
+	
 	}
 
 	static void houses(String size, String Colory) {
 		int height = 0;
-
+		
 		if (size.equals("small")) {
 			height = height + 60;
 		}
